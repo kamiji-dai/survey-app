@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    // Enable automatic formatting when saving ESLint
+    "dbaeumer.vscode-eslint",
+  ]
+}
