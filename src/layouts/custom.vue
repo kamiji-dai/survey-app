@@ -1,6 +1,6 @@
 <template>
-  <header>Custom</header>
-  <div>
+  <dib>
+    <header>Custom</header>
     <slot />
-  </div>
+</dib>
 </template>

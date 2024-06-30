@@ -6,17 +6,17 @@ export default withNuxt(
 	{
 		files: ['**/*.vue', '**/*.ts'],
 		rules: {
-			'no-console': '2',
-			'@typescript-eslint/no-explicit-any': '2',
+			'no-console': 2,
+			'@typescript-eslint/no-explicit-any': 2,
 		},
 	},
 	{
 		files: ['**/*.vue'],
 		rules: {
 			'vue/multi-word-component-names': 0,
-			'vue/no-multiple-template-root': '2',
-			'vue/require-v-for-key': '2',
-			'vue/no-use-v-if-with-v-for': '2',
+			'vue/no-multiple-template-root': 2,
+			'vue/require-v-for-key': 2,
+			'vue/no-use-v-if-with-v-for': 2,
 		},
 	},
 	stylistic.configs.customize({

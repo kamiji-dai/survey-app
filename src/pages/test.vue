@@ -1,10 +1,10 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: false,
+	layout: false,
 })
 
 const setLayout = () => {
-  setPageLayout("custom")
+	setPageLayout('custom')
 }
 </script>
 
