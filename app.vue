@@ -4,8 +4,8 @@ const version = 2 + 1
 
 <template>
   <div class="hello">
-		Hello Nuxt {{ version }}!
-	</div>
+    Hello Nuxt {{ version }}!
+  </div>
 </template>
 
 <style scoped>

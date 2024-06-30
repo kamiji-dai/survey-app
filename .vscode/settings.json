@@ -1,5 +1,6 @@
 {
-  // Enable ESlint flat config support
   "eslint.useFlatConfig": true,
-  "eslint.validate": ["js", "ts", "vue"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
 }

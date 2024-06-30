@@ -4,15 +4,4 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxt/eslint',
 	],
-	eslint: {
-		config: {
-			// Nuxt ESLint で Stylistic を設定する
-			stylistic: {
-				indent: 2,
-				quotes: 'single',
-				semi: false,
-				jsx: true,
-			},
-		},
-	},
 })
