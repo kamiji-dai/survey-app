@@ -6,11 +6,13 @@ export default defineNuxtConfig({
 	],
 	eslint: {
 		config: {
+			// Nuxt ESLint で Stylistic を設定する
 			stylistic: {
-				indent: 'tab',
-				semi: true,
+				indent: 2,
+				quotes: 'single',
+				semi: false,
+				jsx: true,
 			},
 		},
-		checker: true,
 	},
-});
+})
